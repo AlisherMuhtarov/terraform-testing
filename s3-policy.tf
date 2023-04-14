@@ -16,7 +16,7 @@ data "aws_iam_policy_document" "s3_policy" {
     effect = "Allow"
     principals {
       type        = "AWS"
-      identifiers = ["arn:aws:iam::*:user/*"]
+      identifiers = ["arn:aws:iam::ACCOUNT_ID:user/USERNAME"]
     }
     actions   = ["s3:GetObject"]
     resources = ["arn:aws:s3:::my-bucket-name/*"]
