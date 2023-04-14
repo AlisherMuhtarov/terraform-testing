@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "my_bucket" {
-  bucket = "s3-bucket-policy-testing"
+  bucket = "s3-bucket-policy-testing-fjfdgumesf"
 }
 
 resource "aws_s3_bucket_acl" "test_acl" {
